@@ -1,0 +1,14 @@
+{
+    "name": "mranyx/slim-api",
+    "description": "Demonstration to show how to create an API using php 8 and slim",
+    "license": "MIT",
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
